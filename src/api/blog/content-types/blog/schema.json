@@ -42,6 +42,12 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "Blogs"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "blog"
     }
   }
 }
