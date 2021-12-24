@@ -43,11 +43,11 @@
       "target": "api::category.category",
       "inversedBy": "Blogs"
     },
-    "comments": {
+    "Comments": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::comment.comment",
-      "mappedBy": "blog"
+      "mappedBy": "Blog"
     }
   }
 }
