@@ -16,14 +16,16 @@
       "type": "text",
       "required": true
     },
-    "Writer": {
-      "type": "string",
-      "required": true
-    },
     "Blog": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::blog.blog",
+      "inversedBy": "Comments"
+    },
+    "UserId": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
       "inversedBy": "Comments"
     }
   }
