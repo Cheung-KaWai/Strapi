@@ -1,3 +1,9 @@
-# Strapi application
+## Installation
 
-A quick description of your strapi application
+- git clone https://github.com/Cheung-KaWai/Strapi.git
+- npm install
+- npm run develop
+
+## Deployment
+
+https://still-escarpment-29927.herokuapp.com/
